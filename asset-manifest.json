@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pepsi-ldng-page/static/css/main.47517580.chunk.css",
+    "main.js": "/pepsi-ldng-page/static/js/main.5bb895c7.chunk.js",
+    "main.js.map": "/pepsi-ldng-page/static/js/main.5bb895c7.chunk.js.map",
+    "runtime-main.js": "/pepsi-ldng-page/static/js/runtime-main.13386f34.js",
+    "runtime-main.js.map": "/pepsi-ldng-page/static/js/runtime-main.13386f34.js.map",
+    "static/js/2.a7161642.chunk.js": "/pepsi-ldng-page/static/js/2.a7161642.chunk.js",
+    "static/js/2.a7161642.chunk.js.map": "/pepsi-ldng-page/static/js/2.a7161642.chunk.js.map",
+    "index.html": "/pepsi-ldng-page/index.html",
+    "precache-manifest.74eeb42c9d7fbfb58f0310eef3b3c7c3.js": "/pepsi-ldng-page/precache-manifest.74eeb42c9d7fbfb58f0310eef3b3c7c3.js",
+    "service-worker.js": "/pepsi-ldng-page/service-worker.js",
+    "static/css/main.47517580.chunk.css.map": "/pepsi-ldng-page/static/css/main.47517580.chunk.css.map",
+    "static/js/2.a7161642.chunk.js.LICENSE.txt": "/pepsi-ldng-page/static/js/2.a7161642.chunk.js.LICENSE.txt",
+    "static/media/pepsi001.png": "/pepsi-ldng-page/static/media/pepsi001.fc7d3155.png",
+    "static/media/pepsi002.png": "/pepsi-ldng-page/static/media/pepsi002.671ffb98.png",
+    "static/media/pepsi003.png": "/pepsi-ldng-page/static/media/pepsi003.6eeb577e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13386f34.js",
+    "static/js/2.a7161642.chunk.js",
+    "static/css/main.47517580.chunk.css",
+    "static/js/main.5bb895c7.chunk.js"
+  ]
+}
