@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: relative;
+  overflow-x: hidden;
+}
+body p,
+h1,
+h2 {
+  color: white;
+}
+/* thats what  text */
+h2 span {
+  font-weight: 780;
+}
+/* I like text*/
+h1 span {
+  font-weight: 800;
+}
+/* paper */
+.full-wrapper {
+  background: yellow;
+  width: 100%;
+  height: 100vh;
+  transition: all 0.4s ease-in-out;
+}
+/* radio theme div */
+.other {
+  width: 60px;
+  height: 30px;
+  display: flex;
+  margin: 10px auto;
+}
+.other div:nth-child(1) {
+  background: #0062be;
+}
+.other div:nth-child(2) {
+  background: #e60c2c;
+}
+.other div:nth-child(3) {
+  background: #1e1e1e;
+}
+/* radio btns */
+.other div {
+  width: 10px;
+  height: 10px;
+  background: white;
+  color: yellow;
+  margin: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: solid 1px white;
+}
+/* grid in image and text */
+.main-grid {
+  width: 80%;
+  margin: 60px auto;
+}
+/* pepsi can */
+img {
+  height: 400px;
+  transition: all 0.4s ease-in-out;
+}
+/* view all prod btn*/
+button {
+  background: white;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  letter-spacing: 0.03rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 6px 12px;
+  margin: 7px 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/*icons */
+.social-media {
+  position: absolute;
+  left: 96%;
+  top: 20%;
+}
+/* pepsi logo */
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 18px 50px;
+}
+.hamburger {
+  margin: 20px 10px;
+  cursor: pointer;
+}
+.menu {
+  width: 90%;
+  height: 0;
+  margin: 0px auto;
+  padding-bottom: 4px;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+.menu p {
+  font-weight: bold;
+}
+.menu.open {
+  transition: all 0.4s ease-in-out;
+  height: 130px;
+  border-bottom: solid 2px white;
+}
+@media only screen and (max-width: 500px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin: 18px 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main-grid img {
+    height: 200px;
+    margin: 0px 100px;
+  }
+  .other div {
+    border: solid 1px white;
+  }
+  .other div:nth-child(1) {
+    background: #0062be;
+  }
+  .other div:nth-child(2) {
+    background: #e60c2c;
+  }
+  .other div:nth-child(3) {
+    background: #1e1e1e;
+  }
+  h6 {
+    color: white;
+  }
+  h6 span {
+    font-weight: 800;
+    font-size: 1.7rem;
+  }
+  .main-grid p {
+    font-size: 0.78rem;
+  }
+  button {
+    font-size: 0.7rem;
+    margin: 16px 0px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .full-wrapper {
+    height: auto;
+  }
+  h2 span {
+    font-size: 1.5rem;
+  }
+}
