@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pepsi-ldng-page/precache-manifest.74eeb42c9d7fbfb58f0310eef3b3c7c3.js"
+  "/pepsi-ldng-page/precache-manifest.53059da69fb153dbdd966f0d9458d0d0.js"
 );
 
 self.addEventListener('message', (event) => {
